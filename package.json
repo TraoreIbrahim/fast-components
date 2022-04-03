@@ -1,0 +1,29 @@
+{
+  "name": "fast-components",
+  "version": "1.0.1",
+  "description": "front-end components react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "components",
+    "front-end",
+    "button",
+    "switch",
+    "toggle",
+    "radio",
+    "field",
+    "input",
+    "toast"
+  ],
+  "author": "Mr Traoré",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "classnames": "^2.3.1"
+  }
+}
