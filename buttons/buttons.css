@@ -1,0 +1,126 @@
+/*DEFAULT - LIGHT*/
+.buttons {
+  border: 0;
+  outline: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  margin: 0.5rem;
+  border: 0;
+  background-color: #f7f7f7;
+  color: #000;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.buttons:hover {
+  transform: scale(1.05);
+}
+
+.buttons:focus {
+  outline: 2px solid #eeeeee;
+}
+
+.buttons-outline {
+  background-color: transparent !important;
+  border: 2px solid #eeeeee !important;
+}
+
+/*PRIMARY*/
+.buttons-primary {
+  background-color: #185adb;
+  color: white;
+}
+.buttons-primary:focus {
+  outline: 2px solid #1248b5 !important;
+}
+
+.buttons-outline-primary {
+  background-color: transparent !important;
+  border: 2px solid #1248b5 !important;
+  color: #185adb !important;
+}
+
+/*SECONDARY*/
+.buttons-secondary {
+  background-color: #d1d1d1;
+  color: white;
+}
+.buttons-secondary:focus {
+  outline: 2px solid #c8c6c6 !important;
+}
+
+.buttons-outline-secondary {
+  background-color: transparent !important;
+  border: 2px solid #c8c6c6 !important;
+  color: #d1d1d1 !important;
+}
+
+/*SUCCESS*/
+.buttons-success {
+  background-color: #2eb872;
+  color: white;
+}
+.buttons-success:focus {
+  outline: 2px solid #269b61 !important;
+}
+.buttons-outline-success {
+  background-color: transparent !important;
+  border: 2px solid #269b61 !important;
+  color: #269b61 !important;
+}
+
+/*WARNING*/
+.buttons-warning {
+  background-color: #ffd93d;
+  color: black;
+}
+.buttons-warning:focus {
+  outline: 2px solid #d3b22e !important;
+}
+.buttons-outline-warning {
+  background-color: transparent !important;
+  border: 2px solid #ffd93d !important;
+  color: #ffd93d !important;
+}
+
+/*DANGER*/
+.buttons-danger {
+  background-color: #fd5d5d;
+  color: white;
+}
+.buttons-danger:focus {
+  outline: 2px solid #ce4949 !important;
+}
+.buttons-outline-danger {
+  background-color: transparent !important;
+  border: 2px solid #fd5d5d !important;
+  color: #fd5d5d !important;
+}
+
+/*INFO*/
+.buttons-info {
+  background-color: #6fb2d2;
+  color: black;
+}
+.buttons-info:focus {
+  outline: 2px solid #4687a5 !important;
+}
+.buttons-outline-info {
+  background-color: transparent !important;
+  border: 2px solid #6fb2d2 !important;
+  color: #6fb2d2 !important;
+}
+
+/*DARK*/
+.buttons-dark {
+  background-color: #171717;
+  color: white;
+}
+.buttons-dark:focus {
+  outline: 2px solid #0c0c0c !important;
+}
+.buttons-outline-dark {
+  background-color: transparent !important;
+  border: 2px solid #171717 !important;
+  color: #171717 !important;
+}
